@@ -1,0 +1,67 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    display: flex;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+.front{
+    background-color: white;
+    height: 40vh;
+    width:100vh;
+    margin-left: 50px;
+    padding-left: 60px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.front h1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+}
+.side{
+    background-color: white;
+    width: 8vh;
+    height: 90vh;
+    margin-left: 20px;  
+}
+.side1{
+    background-color: white;
+    width: 35vh;
+    height: 90vh;
+    margin-left: 20px;
+}
+.front p{
+    margin-top: 70px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 1px;
+    grid-column-start: 1;
+    color: rgba(0, 0, 0, 0.697);
+}
+.front button{
+    background-color: #FFD600;
+    height: 25px;
+    width: 80px;
+    font-family: sans-serif;
+    margin-top: 1px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.pic{
+    grid-column-start: 2;
+    /* margin-bottom: 200px; */
+    grid-row-start: 1;
+    grid-row-end:4 ;
+    height: 500px;
+    margin-bottom: 500px;
+    background-image: url(port.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
